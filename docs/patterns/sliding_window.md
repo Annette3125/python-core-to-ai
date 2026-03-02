@@ -33,3 +33,10 @@ Common bug traps
 •    “Hard
 part: best = max(best, right - left + 1)(window
 length).”
+
+****
+
+  Fixed-size window: window_sum += nums[right] - nums[right-k]
+  best = max(best, window_sum)
+  start: window_sum = sum(nums[:k])
+  constraints: if k <= 0 or k > len(nums): return None
