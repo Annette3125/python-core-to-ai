@@ -15,6 +15,7 @@ def two_sum_all_pairs(nums, target):
 
     return pairs
 
+
 print(two_sum_all_pairs([2, 7, 2, 7], 9))
 #  Expected: [[0, 1], [1, 2], [0, 3], [2, 3]]
 print(two_sum_all_pairs([3, 3, 3], 6))

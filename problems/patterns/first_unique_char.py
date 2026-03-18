@@ -12,8 +12,6 @@ def first_unique_char(s: str) -> str:
     return "_"
 
 
-
 assert first_unique_char("leetcode") == "1"
 assert first_unique_char("aabbcc") == "_"
 print("All tests passed")
-

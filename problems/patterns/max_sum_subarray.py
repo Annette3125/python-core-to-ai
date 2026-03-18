@@ -12,6 +12,7 @@ def max_sum_subarray(nums, k):
 
     return best
 
-assert max_sum_subarray([2,1,5,1,3,2], 3) == 9
-assert max_sum_subarray([2,3,4,1,5], 2) == 7
+
+assert max_sum_subarray([2, 1, 5, 1, 3, 2], 3) == 9
+assert max_sum_subarray([2, 3, 4, 1, 5], 2) == 7
 print("All tests passed")

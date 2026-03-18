@@ -1,6 +1,6 @@
 def valid_palindrome(s: str):
 
-    left  = 0
+    left = 0
     right = len(s) - 1
 
     while left < right:

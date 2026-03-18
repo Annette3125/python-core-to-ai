@@ -13,12 +13,12 @@ def duplicate_indices(nums):
 
     return result
 
-print(duplicate_indices([1,2,1,3,2]))
+
+print(duplicate_indices([1, 2, 1, 3, 2]))
 # Expected: {1: [0, 2], 2: [1, 4]}
 
-assert duplicate_indices([1,2,1,3,2]) == {1: [0, 2], 2: [1, 4]}
+assert duplicate_indices([1, 2, 1, 3, 2]) == {1: [0, 2], 2: [1, 4]}
 assert duplicate_indices([1, 2, 3]) == {}
 assert duplicate_indices([]) == {}
 
 print("All tests passed")
-

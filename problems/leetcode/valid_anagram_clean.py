@@ -1,4 +1,3 @@
-
 def is_anagram(s, t):
     if len(s) != len(t):
         return False
@@ -16,6 +15,7 @@ def is_anagram(s, t):
             return False
 
     return True
+
 
 def clean(s) -> str:
     out = []

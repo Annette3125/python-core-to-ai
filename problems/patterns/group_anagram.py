@@ -11,8 +11,10 @@ def group_anagrams(words):
     return list(groups.values())
 
 
-out = group_anagrams(["eat","tea","tan","ate","nat","bat"])
+out = group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
 
-assert sorted([sorted(g) for g in out]) == sorted([["ate","eat","tea"],["nat","tan"],["bat"]])
+assert sorted([sorted(g) for g in out]) == sorted(
+    [["ate", "eat", "tea"], ["nat", "tan"], ["bat"]]
+)
 
 print("All tests passed")

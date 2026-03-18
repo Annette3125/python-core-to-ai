@@ -1,5 +1,5 @@
 #  1
-s="abca"
+s = "abca"
 counts = {}
 for ch in s:
     counts[ch] = counts.get(ch, 0) + 1
@@ -7,6 +7,7 @@ print(counts)
 # Expected: {'a': 2, 'b': 1, 'c': 1}
 
 # 2
+
 
 def first_unique(s):
     counts = {}
@@ -16,6 +17,7 @@ def first_unique(s):
         if counts[ch] == 1:
             return i
     return -1
+
 
 print(first_unique("loveleetcode"))
 #  Expected: 2
@@ -30,5 +32,5 @@ print(seen)
 #  Expected: {1, 2, 3}
 
 # 4
-print("a" in {"a": 1})   # Expected: True (dict checks keys)
-print("a" in {"a", "b"}) # Expected: True (set checks elements)
+print("a" in {"a": 1})  # Expected: True (dict checks keys)
+print("a" in {"a", "b"})  # Expected: True (set checks elements)

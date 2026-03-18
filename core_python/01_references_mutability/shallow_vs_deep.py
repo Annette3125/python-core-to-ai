@@ -2,8 +2,8 @@ import copy
 
 print("== Shallow vs Deep (nested objects) ==")
 a = [{"labels": ["A"]}, {"labels": ["B"]}]
-b = a[:]                 # shallow copy (new outer list)
-c = copy.deepcopy(a)     # deep copy (new outer + new nested)
+b = a[:]  # shallow copy (new outer list)
+c = copy.deepcopy(a)  # deep copy (new outer + new nested)
 
 b[0]["labels"].append("X")
 c[1]["labels"].append("Y")
